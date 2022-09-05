@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "elite-replica-343907-tfstate"
     prefix = "env/prod"
   }
 }
